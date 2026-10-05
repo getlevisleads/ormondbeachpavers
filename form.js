@@ -18,10 +18,10 @@ document.getElementById('lead-form').addEventListener('submit', async function (
       form.reset();
       msg.textContent = 'Thanks! Your request was sent. A local paver pro will reach out soon.';
     } else {
-      msg.textContent = out.error || 'Something went wrong. Please call or text (386) 242-8812.';
+      msg.textContent = out.error || 'Something went wrong. Please call or text (386) 251-0967.';
     }
   } catch (err) {
-    msg.textContent = 'Something went wrong. Please call or text (386) 242-8812.';
+    msg.textContent = 'Something went wrong. Please call or text (386) 251-0967.';
   }
   btn.disabled = false;
 });
